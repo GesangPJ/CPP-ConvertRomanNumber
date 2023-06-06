@@ -10,7 +10,7 @@ int main(int argc, char* argv[]) {
         cout << "Masukkan Angka: ";
         cin >> angka;
         if (angka < 1 || angka > 3999) {
-            cout << "Angka Tidak Boleh Lebih Dari 3999!! \n" << endl;
+            cout << "Angka Tidak Boleh Lebih Dari 3999!!" << endl;
         }
         else {
             while (angka >= 1000) {
@@ -36,6 +36,7 @@ int main(int argc, char* argv[]) {
                     angka -= 400;
                 }
                 else {
+                    cout << "C";
                     angka -= 100;
                 }
             }
